@@ -17,7 +17,7 @@ public class Main {
 
         // Enter your login password
         driver.findElement(By.id("password"))
-                .sendKeys("pratham@2005");
+                .sendKeys("password");
 
         driver.findElement(By.className("signin-button"))
                 .click();
